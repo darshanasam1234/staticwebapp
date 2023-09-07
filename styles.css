@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+3. Create a JavaScript file (script.js):
+
+javascript
+Copy code
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("changeText");
+    const main = document.querySelector("main p");
+
+    button.addEventListener("click", function () {
+        main.textContent = "Text changed!";
+    });
+});
+4. Directory Structure:
+
+Your project directory should have the following structure:
+
+diff
+Copy code
+- index.html
+- styles.css
+- script.js
+5. Viewing the Web App:
+
+Open the index.html file in your web browser. You'll see a simple static web app with a header, a paragraph, and a button. When you click the button, the text in the paragraph will change.
+
+This example demonstrates the basic structure of a static web app using HTML, CSS, and JavaScript. You can further enhance and expand your static web app by adding more HTML elements, styling, and interactivity as needed for your project.
+
+
+
+
+
